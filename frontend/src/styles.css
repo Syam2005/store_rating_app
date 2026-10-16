@@ -1,0 +1,15 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#f4f6f8;color:#1f2933}
+nav{display:flex;justify-content:space-between;align-items:center;background:#1f2933;color:#fff;padding:12px 24px}
+main{max-width:1100px;margin:24px auto;padding:0 16px}
+.card{background:#fff;border-radius:8px;padding:20px;margin-bottom:20px;box-shadow:0 1px 3px rgba(0,0,0,.1)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}
+.stat{font-size:28px;font-weight:700}
+input,select,textarea{width:100%;padding:8px;border:1px solid #cbd2d9;border-radius:4px;margin:4px 0}
+button{padding:8px 14px;border:0;border-radius:4px;background:#2563eb;color:#fff;cursor:pointer}
+button.secondary{background:#6b7280}button:disabled{opacity:.5}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px;border-bottom:1px solid #e4e7eb}
+th.sortable{cursor:pointer;user-select:none}
+.err{color:#b91c1c;font-size:13px}.ok{color:#15803d;font-size:13px}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.row>*{flex:1;min-width:140px}
+.tabs button{background:#e4e7eb;color:#111;margin-right:6px}.tabs button.active{background:#2563eb;color:#fff}
+.center{max-width:420px;margin:60px auto}
